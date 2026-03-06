@@ -30,6 +30,19 @@ PS> Get-ChildItem -Recurse -Filter *.log | Remove-Item
 
 aido works on macOS, Linux, and Windows — one command, any shell.
 
+## Install aido
+
+1. Download the binary from [https://github.com/secondfry/aido/releases](https://github.com/secondfry/aido/releases)
+
+2. **macOS users only:** Remove quarantine attribute:
+   ```bash
+   xattr -d com.apple.quarantine ./aido_*_darwin_*
+   ```
+
+3. Run it in your CLI.
+
+4. Get your API key from [https://aido.secondfry.com](https://aido.secondfry.com) (sign in via GitHub)
+
 ## Issues
 
 Found a bug or have a feature request? Open an issue.
